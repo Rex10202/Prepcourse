@@ -30,7 +30,7 @@ function incrementarPorUno(array) {
 }
 
 function agregarItemAlFinalDelArray(array, elemento) {
-   return array.push(elemento);
+   
    // Agrega el "elemento" al final del arreglo recibido.
    // Retorna el arreglo.
    // Tu código:
@@ -205,17 +205,7 @@ function breakStatement(num) {
 }
 
 function continueStatement(num) {
-   var nuevoarray=[];
-   var aux;
-   while(aux<10){
-      aux++;
-      if(aux==5){
-         aux++;
-         continue;
-      }
-      nuevoarray.push(Math.pow(num,2));
-   }
-   return nuevoarray;
+   
    // Iterar en un bucle aumentando en 2 el número recibido hasta un límite de 10 veces.
    // Guardar cada nuevo valor en un array y retornarlo.
    // Cuando el número de iteraciones alcance el valor 5, no se suma ese caso y
