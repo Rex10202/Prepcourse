@@ -1,6 +1,14 @@
 /*⚠️ NO MODIFIQUES EL NOMBRE DE LAS DECLARACIONES ⚠️*/
 
 function crearGato(nombre, edad) {
+   var Gato = {
+      nombre:nombre,
+      edad:edad,
+      meow: function(){
+         return "Meow!";
+      }
+   }
+   return Gato;
    // Debes crear un nuevo objeto con las propiedades "nombre" y "edad".
    // Ambas propiedades deben tener el valor correspondiente recibido por parámetro.
    // Además, agregar una propiedad con el nombre "meow".
@@ -10,6 +18,12 @@ function crearGato(nombre, edad) {
 }
 
 function nuevoUsuario(nombre, email, password) {
+   var Usuario = {
+      nombre:nombre,
+      email:email,
+      password:password
+   }
+   return Usuario;
    // Debes crear un nuevo objeto.
    // Este debe tener las propiedades: "nombre", "email" y "password" con sus respectivos valores.
    // Retornar el objeto.
